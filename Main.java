@@ -17,11 +17,8 @@ public class Main {
 		FileMerge service = new FileMerge(masterFileName, childFileName);
 		try {
 			service.splitFiles();
-		} catch (IllegalStateException e) {
-			// TODO
-			System.out.println(e.getMessage());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} catch (IllegalStateException | IOException e) {
+			
 			System.out.println(e.getMessage());
 		}
 	}
