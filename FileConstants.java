@@ -1,4 +1,4 @@
-package com.guru.info;
+package com.guru.utils;
 
 
 /**
