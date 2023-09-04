@@ -1,4 +1,4 @@
-package com.guru.info;
+package com.guru.service;
 
 import java.io.File;
 import java.io.IOException;
