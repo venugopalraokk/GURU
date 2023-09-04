@@ -1,4 +1,4 @@
-package com.jpmc.info;
+package com.guru.info;
 
 import java.io.Serializable;
 
