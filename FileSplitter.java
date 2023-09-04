@@ -40,9 +40,7 @@ public class FileSplitter {
 			}
 			// --Writing the remaining records to buckets
 			writeRecordsIntoBuckets(prefix, bucketSize);
-		} catch (FileNotFoundException e) {
-			System.out.println(e.getMessage());
-		} catch (IOException e) {
+		} catch (FileNotFoundException | IOException e) {
 			System.out.println(e.getMessage());
 		}
 		System.out.println("{splitFile}:EXIT");
