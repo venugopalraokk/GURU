@@ -1,4 +1,4 @@
-package com.jpmc.service;
+package com.guru.service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
